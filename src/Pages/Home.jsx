@@ -8,7 +8,7 @@ import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from "../components/Footer";
-import { Navbar } from "../components/Navbar";
+// import { Navbar } from "../components/Navbar";
 
 export const Home = () => {
   return (
@@ -19,7 +19,7 @@ export const Home = () => {
       <StarBackground />
 
 
-      <Navbar />
+      {/* <Navbar /> */}
 
       <main>
         <HeroSection />
