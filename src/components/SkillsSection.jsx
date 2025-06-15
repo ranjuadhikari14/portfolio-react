@@ -4,24 +4,26 @@ const skills=[
     //frontend
     {name:"HTML/CSS",level:95,category:"Frontend"},
     {name:"JavaScript",level:90,category:"Frontend"},
-    {name:"React",level:90,category:"Frontend"},
-    {name:"TypeScript",level:85,category:"Frontend"},
+    {name:"React",level:80,category:"Frontend"},
+    // {name:"TypeScript",level:85,category:"Frontend"},
     {name:"Tailwind CSS",level:90,category:"Frontend"},
-    {name:"Next.js",level:80,category:"Frontend"},
+    // {name:"Next.js",level:80,category:"Frontend"},
 
          //Backend
-    {name:"Node.js",level:80,category:"Backend"},
-    {name:"MongoDB",level:75,category:"Backend"},
-    {name:"Express",level:70,category:"Backend"},
-    {name:"PostgreSQL",level:65,category:"Backend"},
-    {name:"GraphQL",level:60,category:"Backend"},
     {name:"Laravel",level:55,category:"Backend"},
     //Tools
     {name:"Git/Github",level:95,category:"Tools"},
-    {name:"Figma",level:95,category:"Tools"},
-    {name:"Docker",level:95,category:"Tools"},
+    {name:"Figma",level:70,category:"Tools"},
+    {name:"Jupyter Notebook",level:80,category:"Tools"},
     {name:"VS Code",level:95,category:"Tools"},
-          
+          //Machine Learning
+    {name:"Python",level:95,category:"MachineLearning"},
+    {name:"Numpy",level:95,category:"MachineLearning"},
+    {name:"Pandas",level:95,category:"MachineLearning"},
+    {name:"SeaBorn",level:95,category:"MachineLearning"},
+    {name:"MatPlotLib",level:95,category:"MachineLearning"},
+
+
 ];
 const categories = ["all", "frontend", "backend", "tools"];
 
