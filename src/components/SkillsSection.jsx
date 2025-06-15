@@ -25,7 +25,7 @@ const skills=[
 
 
 ];
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "tools", "machinelearning"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
