@@ -5,8 +5,8 @@ const skills=[
    {name:"Python",level:95,category:"MachineLearning"},
     {name:"Numpy",level:95,category:"MachineLearning"},
     {name:"Pandas",level:95,category:"MachineLearning"},
-    {name:"SeaBorn",level:95,category:"MachineLearning"},
-    {name:"MatPlotLib",level:95,category:"MachineLearning"},
+    {name:"Seaborn",level:95,category:"MachineLearning"},
+    {name:"Matplotlib",level:95,category:"MachineLearning"},
 
     //frontend
     {name:"HTML/CSS",level:95,category:"Frontend"},
