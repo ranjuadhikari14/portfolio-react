@@ -1,13 +1,16 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects=[
+
+
+  
     {
        id:1,
-       title:"Saas Landing Page",
+       title:"Landing Page",
        description:"A description landing page app using React and Tailwind.",
-       image:"/projects/project1.png",
+       image:"/projects/projects1.png",
        tags:["React","TainwindCSS","Supabase"],
-       demoUrl:"a",
-       githunUrl:"a", 
+       demoUrl:"https://startup-ranjita.netlify.app/",
+       githubUrl:"https://github.com/ranjuadhikari14/react-project", 
     },
     {
        id:2,
@@ -16,7 +19,7 @@ const projects=[
        image:"/projects/projects2.png",
        tags:["Numpy","Pandas","Seaborn","MatPlotLib"],
        demoUrl:"a",
-       githunUrl:"a", 
+       githubUrl:"https://github.com/ranjuadhikari14/ISP-DataSet", 
     },
     
 
@@ -28,7 +31,7 @@ const projects=[
 
        tags:["HTML","CSS","JavaScript"],
        demoUrl:"a",
-       githunUrl:"a", 
+       githubUrl:"a", 
     },
      {
        id:4,
@@ -37,7 +40,7 @@ const projects=[
        image:"/projects/project5.png",
        tags:[ "NumPy", "Pandas", "Seaborn"," Matplotlib"],
        demoUrl:"a",
-       githunUrl:"a", 
+       githubUrl:"https://github.com/ranjuadhikari14/podcast-listening-time", 
     },
      {
        id:5,
@@ -46,7 +49,7 @@ const projects=[
        image:"/projects/project6.png",
        tags:[ "NumPy", "Pandas", "Seaborn"," Matplotlib"],
        demoUrl:"a",
-       githunUrl:"a", 
+       githubUrl:"https://github.com/ranjuadhikari14/Crab-AGE-prediction", 
     },
      {
        id:6,
@@ -56,7 +59,7 @@ const projects=[
 
        tags:["NumPy", "Pandas", "Seaborn",],
        demoUrl:"a",
-       githunUrl:"a", 
+       githubUrl:"https://github.com/ranjuadhikari14/NetflixMovieDataAnalysis", 
     },
 ];
 
