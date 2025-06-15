@@ -13,7 +13,7 @@ const skills=[
     {name:"Laravel",level:55,category:"Backend"},
     //Tools
     {name:"Git/Github",level:95,category:"Tools"},
-    {name:"Figma",level:70,category:"Tools"},
+    {name:"Figma",level:60,category:"Tools"},
     {name:"Jupyter Notebook",level:80,category:"Tools"},
     {name:"VS Code",level:95,category:"Tools"},
           //Machine Learning
