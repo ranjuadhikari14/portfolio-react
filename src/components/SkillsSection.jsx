@@ -1,6 +1,13 @@
 import { useState } from "react";
 import {cn} from '@/lib/utils'
 const skills=[
+   //Machine Learning
+   {name:"Python",level:95,category:"MachineLearning"},
+    {name:"Numpy",level:95,category:"MachineLearning"},
+    {name:"Pandas",level:95,category:"MachineLearning"},
+    {name:"SeaBorn",level:95,category:"MachineLearning"},
+    {name:"MatPlotLib",level:95,category:"MachineLearning"},
+
     //frontend
     {name:"HTML/CSS",level:95,category:"Frontend"},
     {name:"JavaScript",level:90,category:"Frontend"},
@@ -16,16 +23,11 @@ const skills=[
     {name:"Figma",level:60,category:"Tools"},
     {name:"Jupyter Notebook",level:80,category:"Tools"},
     {name:"VS Code",level:95,category:"Tools"},
-          //Machine Learning
-    {name:"Python",level:95,category:"MachineLearning"},
-    {name:"Numpy",level:95,category:"MachineLearning"},
-    {name:"Pandas",level:95,category:"MachineLearning"},
-    {name:"SeaBorn",level:95,category:"MachineLearning"},
-    {name:"MatPlotLib",level:95,category:"MachineLearning"},
+    
 
 
 ];
-const categories = ["all", "frontend", "backend", "tools", "machinelearning"];
+const categories = ["all","machinelearning", "frontend", "backend", "tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
